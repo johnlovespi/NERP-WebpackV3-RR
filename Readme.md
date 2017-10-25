@@ -11,7 +11,7 @@ Template to get started on a NERP stack Single Page Application (PostgreSQL, Exp
 - [React.js](https://facebook.github.io/react/)
   * Client side library for our view layer
 - [React-Router](https://reacttraining.com/react-router/)
-  * Client side routing
+  * Client side routing for our React client
 - [WebpackV3](http://webpack.github.io/docs/)
   * Application bundler used for our React client
 
