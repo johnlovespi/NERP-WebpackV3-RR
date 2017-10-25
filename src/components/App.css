@@ -1,0 +1,51 @@
+* {
+  font-family: sans-serif;
+}
+
+header {
+  background-color: #222;
+  padding: 13px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  margin: 0;
+  display: inline-block;
+}
+
+header h1 a {
+  color: #EFEFEF;
+  text-decoration: none;
+}
+
+header h1 a:hover {
+  color: none;
+}
+
+header nav li {
+  list-style: none;
+  display: inline-block;
+  padding: 7px;
+}
+
+header nav a {
+  text-decoration: none;
+  color: #EFEFEF;
+}
+
+header nav li a:hover {
+  color: rebeccapurple;
+}
+
+#main {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+span {
+  color: red;
+}
