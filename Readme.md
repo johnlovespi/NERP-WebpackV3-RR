@@ -16,7 +16,7 @@ Template to get started on a NERP stack Single Page Application (PostgreSQL, Exp
   * Application bundler used for our React client
 
 ## Getting Started
-**Install Node Module with**
+**Install Node Modules with**
 ```
 $ npm install
 ```
@@ -25,8 +25,8 @@ $ npm install
 ```
 $ npm run watch
 ```
--  The `watch` script is used for development. It "watches" your `src/` directory
-for any changes and rebuilds your React Client.
+-  The `watch` script is used for development. It "watches" the `src/` directory
+for any changes and rebuilds the React Client.
 
 **Open another terminal window and start your server**
 ```
