@@ -6,8 +6,8 @@ const Header = () => (
     <h1><Link to='/'>NERP-Webpack-RR</Link></h1>
     <nav>
       <ul>
-        <li><Link to='/'>Home</Link></li>
         <li><Link to='/about'>About</Link></li>
+        <li> <Link to='/photos'>Photography</Link></li>
       </ul>
     </nav>
   </header>

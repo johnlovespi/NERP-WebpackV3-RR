@@ -49,3 +49,10 @@ header nav li a:hover {
 span {
   color: red;
 }
+
+img {
+  width: 500px;
+  height:500px;
+  padding: 7px;
+  margin-left: 73px;
+}
