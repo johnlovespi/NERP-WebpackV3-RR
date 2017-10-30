@@ -1,4 +1,4 @@
-# NERP Application/Portfolio Template
+# NERP Single page Application Template
 
 ## What is this?
 Template to get started on a NERP stack Single Page Application (PostgreSQL, Express, React.js, Node.js)
