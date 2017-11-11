@@ -4,11 +4,13 @@ const webpack           = require('webpack');
 const path              = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
+const nodeExternals     = require('webpack-node-externals');
 
 const APP_DIR           = path.resolve(__dirname, 'src');
 const BUILD_DIR         = path.resolve(__dirname, 'dist');
 
 module.exports = {
+  externals: [nodeExternals()],
   entry: `${APP_DIR}/index.js`,
   output: {
     path: BUILD_DIR,
